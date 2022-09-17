@@ -1,0 +1,479 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    background-color: #e3e3e3;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+}
+.menubar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    position: relative;
+}
+.leftmenu{
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    padding: 10px;
+}
+h1{
+    color: #3563e9;
+}
+.form{
+    height: 30px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 2px;
+    margin-top: 5px;
+}
+.menubar input[type=text]{
+    width: 150px;
+    background-color: white;
+    border: none;
+    margin-left: 10px;
+}
+.form img{
+    margin-left: 20px;
+    padding-top: 3px;
+}
+.form i{
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.rightmenu{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    position: absolute;
+    right: 60px;
+}
+
+.heart{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(231, 230, 230);
+    padding: 2px;
+    margin-left: 20px;
+    
+}
+#profile{
+    padding-left: 20px;
+}
+.topsplit{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.leftsplit{
+   width: 65%;
+    margin-bottom: -60px;
+    margin-left: 40px;
+    
+}
+.billinginfo{
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 200px;
+    padding: 15px;
+    margin-left: 50px;
+
+}
+.billdate{
+    color: #596780;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+    margin-top: 10px;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+}
+.leftsplit label{
+    font-size: 12px;
+    color: black;
+}
+.billinginfo input{
+    height: 40px;
+    width: 270px;
+    background-color: #f6f7f9;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    color: #596780;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 20px;
+    
+}
+.pickup{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+#visa{
+    margin-left: 410px;
+}
+.pickup h4{
+    margin-left: 10px;
+}
+.rightpart{
+    margin-left: 50px;
+}
+.rentalinfo{
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 200px;
+    padding: 15px;
+    margin-left: 50px;
+}
+.rentalinfo label{
+
+    font-size: 10px;
+    color: #596780;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    
+}
+.rentalinfo select{
+    border: none;
+    color: #596780;
+    background-color: #f6f7f9;
+    margin-left: 230px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    
+}
+.select{
+    height: 40px;
+    width: 270px;
+    background-color: #f6f7f9;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    color: #596780;
+    font-weight: bold;
+    font-size: 10px;
+    
+}
+.payment{
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 200px;
+    padding: 15px;
+    margin-left: 50px;
+    margin-top: 20px;   
+}
+.paymentmethod{
+    color: #596780;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+    margin-top: 10px;   
+
+}
+.credit{
+    background-color: #f6f7f9;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.creditcard{
+   display: flex;
+   flex-direction: row;
+}
+.creditcard h4{
+    margin-left: 10px;
+}
+.credit label{
+    font-size: 10px;
+    color: black;
+}
+.credit input{
+    height: 40px;
+    width: 260px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    color: #596780;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 20px;
+    
+}
+.paypal{
+    height: 40px;
+    margin-top: 20px;
+    background-color: #f6f7f9;
+    border-radius: 5px;
+    border: none;
+    color: #596780;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 10px;
+    
+}
+.paypal img{
+    margin-left: 440px;
+}
+.paypal label{
+    margin-left: 10px;
+}
+.bitcoin{
+    height: 40px;
+    margin-top: 20px;
+    background-color: #f6f7f9;
+    border-radius: 5px;
+    border: none;
+    color: #596780;
+    font-weight: bold;
+    font-size: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    position: relative;
+}
+.bitcoin img{
+    position: absolute;
+    top: 15px;
+    right: 10px
+}
+.bitcoin label{
+ margin-left: 10px;
+}
+.confirmation{
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 200px;
+    padding: 15px;
+    margin-left: 50px;
+    margin-top: 20px; 
+}
+.checkbox{
+    height: 40px;
+    margin-top: 20px;
+    background-color: #f6f7f9;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-weight: 100;
+    font-size: 10px;
+    padding: 10px;
+
+}
+.checkbox label{
+    margin-left: 10px;
+}
+.confirmation button{
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: #3563e9;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.confirmation h5{
+    margin-top: 20px;
+}
+.para{
+    font-size: 10px;
+    color: #596780;
+    margin-top: 10px;    
+}
+.rendalsummary{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 70px;
+    border-radius: 10px;
+    padding: 10px;  
+}
+.rendalsummary p{
+    font-size: 10px;
+    color: #90a3bf;
+    margin-top: 10px;
+    
+}
+.nissan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.rightsplit{
+    margin-left: 50px;
+}
+.view{
+  
+  height: 100px;
+  width: 100px;
+  background-color: #3563e9;
+  border-radius: 10px;
+  border: 1px solid #3563e9;
+  padding: 30px;
+  margin-top: 10px;
+ margin-left: -20px;
+}
+#carview{
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+.nissangt h3{
+    margin-top: 20px;
+    margin-left: -20px;
+}
+.review{
+    display: flex;
+    flex-direction: row;
+    margin-left: -20px;
+    margin-top: 10px;
+    
+}
+.checked{
+    color: orange;
+}
+.review p{
+margin-left: 15px;
+margin-top: 5px;
+}
+.review span{
+    padding: 2px;
+}
+.viewhr{
+    color: #c3d4e9;
+    width: 295px;
+    margin-left: 2px;
+    
+
+} 
+.subtotal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.apply{
+    height: 40px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #e3e3e3;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.apply span{
+    font-size: 12px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.apply p{
+    margin-left: 10px;
+}
+.amount{
+    color: black;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.totalrent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.amt{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.bottom{
+    background-color: white;
+}
+.bottomup{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+.rightside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+}
+ul{
+    list-style-type: none;
+    padding: 10px;
+
+}
+li{
+    font-size: 12px;
+    color: #131313;
+    padding: 10px;
+}
+.leftside h3{
+    margin-left: 90px;
+    color: #3563e9;
+    margin-top: 50px;
+
+}
+.leftside p{
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #131313; 
+    line-height: 20px;
+}
+.about h5{
+    margin-left: 20px;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.privacy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 50px;
+
+}
+.privacy p{
+    font-weight: bold;
+    padding: 20px;
+}
+
+.p{
+    margin-left: 90px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+hr{
+    width: 90%;
+    margin-left: 80px;
+}

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Car Rent</title>
+    <link href="payment.css" rel="Stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <div class="container">
+      <div class="menubar">
+          <div class="leftmenu">
+              <h1>MORENT</h1>
+              <div class="form">
+                  <i class="fa fa-search" style="font-size: 15px;"></i>
+                  <input type="text" placeholder="Search something here">
+                  <img src="filter.png"  height="15px" width="15px">
+              </div>
+          </div>
+            <div class="rightmenu">
+              <div class="heart">
+                  <img src="heart.png" height="25px" width="25px">
+              </div>
+              <div class="heart">
+                <img src="notification.png" height="25px" width="25px">
+            </div>
+            <div class="heart">
+                <img src="setting.png" height="25px" width="25px">
+            </div>
+        
+                <img src="Profil.png" id="profile" height="30px" width="50px">
+            
+      </div>
+      </div>
+      <br><br>
+      
+      <div class="topsplit">
+        <div class="leftsplit">
+            <div class="billinginfo">
+                <h4>Billing Info</h4>
+                <div class="billdate">
+                  <p>Please enter your billing ingo</p>
+                  <p>Step 1 of 4</p>
+                </div>
+                <br>
+                <form>
+                    <div class="first">
+                    <div class="leftpart">
+                    <label>Name</label><br>
+                    <input type="text" name="name" placeholder="yourname"><br><br>
+                    <label>Address</label><br>
+                    <input type="text" name="address" placeholder="Address">
+                    </div>
+                    <div class="rightpart">
+                    <label>Phone Number</label><br>
+                    <input type="text" name="number" placeholder="Phonenumber"><br><br>
+                    <label>Town/City</label><br>
+                    <input type="text" name="city" placeholder="Town or city">
+                    </div>
+                    </div>
+                </form><br>
+            </div>
+            <br>
+            <div class="rentalinfo">
+                <h4>Rental Info</h4>
+                <div class="billdate">
+                  <p>Please select your rental date</p>
+                  <p>Step 2 of 4</p>
+                </div>
+                   <div class="pickup">
+                       <img src="mark.png" height="15px" width="15px">
+                       <h4>Pick Up</h4>
+                   </div><br>
+                    <div class="first">
+                    <div class="leftpart">
+                    <h6>Locations</h6><br>
+                    <div class="select">
+                        <label>Select Your City</label>
+                    <select>
+                        <option></option>
+                    </select>
+                    </div><br>
+                    <h6>Date</h6><br>
+                    <div class="select">
+                        <label>Select Your Date</label>
+                    <select>
+                        <option></option>
+                    </select>
+                    </div>
+                    </div><br>
+                    <div class="rightpart">
+                    <h6>Time</h6><br>
+                    <div class="select">
+                        <label>Select Your Time</label>
+                    <select>
+                        <option></option>
+                    </select>
+                    </div>
+                    </div>
+                    </div>
+ 
+                    <div class="pickup">
+                        <img src="mark.png" height="15px" width="15px">
+                        <h4>Drop Off</h4>
+                    </div> <br>
+                    <div class="first">
+                        <div class="leftpart">
+                        <h6>Locations</h6><br>
+                        <div class="select">
+                            <label>Select Your City</label>
+                        <select>
+                            <option></option>
+                        </select>
+                        </div><br>
+                        <h6>Date</h6><br>
+                        <div class="select">
+                            <label>Select Your Date</label>
+                        <select>
+                            <option></option>
+                        </select>
+                        </div>
+                        </div><br>
+                        <div class="rightpart">
+                        <h6>Time</h6><br>
+                        <div class="select">
+                            <label>Select Your Time</label>
+                        <select>
+                            <option></option>
+                        </select>
+                        </div>
+                        </div>
+                        </div><br>
+            </div>
+           
+            <div class="payment">
+                <h4>Payment Method</h4>
+                <div class="paymentmethod">
+                    <p>Please enter your payment method</p>
+                    <p>Step 3 of 4</p>
+                  </div>
+                <div class="credit">  
+                <div class="creditcard">
+                    <img src="mark.png" height="15px" width="15px">
+                    <h4>Creditcard</h4>
+                    <img src="Visa.png" id="visa" height="10px" width="50px">
+                </div>
+                <form><br>
+                    <div class="first">
+                        <div class="leftpart">
+                        <label>Card Number</label><br>
+                        <input type="text" name="cardnumber" placeholder="Cardnumber"><br><br>
+                        <label>Card Holder</label><br>
+                        <input type="text" name="holdername" placeholder="Cardholder">
+                        </div>
+                        <div class="rightpart">
+                        <label>Expration Date</label><br>
+                        <input type="date" name="date"><br><br>
+                        <label>CVC</label><br>
+                        <input type="text" name="CVC" placeholder="CVC">
+                        </div>
+                        </div>
+                </form>
+               </div>
+                <div class="paypal">
+                    <input type="radio" name="paypal">
+                    <label>Paypal</label>
+                    <img src="PayPal.png" height="15px" width="60px">
+                </div>
+                <div class="bitcoin">
+                    <input type="radio" name="bitcoin">
+                    <label>Bitcoin</label>
+                    <img src="Bitcoin.png" height="10px" width="60px">
+                </div>
+            </div>
+            
+         <div class="confirmation">
+             <h4>confirmation</h4>
+             <div class="paymentmethod">
+                <p>Please enter your payment method</p>
+                <p>Step 3 of 4</p>
+              </div>
+              <div class="checkbox">
+              <input type="checkbox">
+              <label>I agree with sending an Marketting and newsletter emails. No spam,promissed!</label>
+               </div>
+               <div class="checkbox">
+                <input type="checkbox">
+                <label>I agree with our terms nad conditions and privacy policy.</label>
+                 </div>
+                <button>Rent Now</button><br><br>
+               <img src="icsecuritysafety.png" height="20px" width="20px">
+               <br>
+               <h5>All your data are safe</h5>
+               <p class="para">We are usingthe most advanced security to privode you the best experience ever.</p>
+            <br>
+            </div>
+      
+           <br>
+        </div>
+        <div class="rightsplit">
+          <div class="rendalsummary">
+              <h4>Rental Summary</h4>   
+              <p>Prices may change depending on the length of the rental and the<br>price of your rental car.</p>
+             <div class="nissan">       
+            <div class="view">    
+            <img src="car2.png" id="carview" height="30px" width="80px">
+            </div>
+            <div class="nissangt">
+            <h3>NissanGT-R</h3>
+            <div class="review">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star notchecked"></span>
+            <P>440+ Reviews</P>
+            </div>
+            </div>
+            </div><br>
+            <hr class="viewhr"><br>
+            <div class="subtotal">
+                <p>Suptotal</p>
+                <span class="amount">$80.00</span>
+            </div>
+            <div class="subtotal">
+                <p>Tax</p>
+                <span class="amount">$0</span>
+            </div>
+            <div class="apply">
+                <P>Apply Promo Code</P>
+                <span>Apply Now</span>
+            </div><br>
+            <div class="totalrent">
+                <div>
+                <h5>Total Rental Price</h5>
+                <p>Overal price and includes rentak discount</p>
+                </div>
+                <span class="amt">$80.00</span>
+            </div>
+            </div>
+            </div>
+        
+
+
+      
+                   
+                    
+    </div>   
+<br><br><br>
+<div class="bottom">
+<div class="bottomup">
+   <div class="leftside">
+       <h3>MORENT</h3>
+       <p>Our vision is to provide convenience<br>and help increase your sales business.</p>
+       </div>
+
+       <div class="rightside">
+           <div class="about">
+               <h5>About</h5>
+               <ul>
+                   <li>How it works</li>
+                   <li>Featured</li>
+                   <li>Partnership</li>
+                   <li>Business Relation</li>
+               </ul>
+           </div>
+           <div class="about">
+            <h5>Community</h5>
+            <ul>
+                <li>Events</li>
+                <li>Blog</li>
+                <li>Podcast</li>
+                <li>Invite a Friends</li>
+            </ul>
+           </div>
+           <div class="about">
+            <h5>Socials</h5>
+            <ul>
+                <li>Discord</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>Facebook</li>
+            </ul>
+           </div>
+       </div>
+      </div>
+       <br><br>
+       <hr>
+       <footer>
+           <div class="foot">
+               <p class="p"><span style="font-size: 20px; font-weight: bold;">&copy;</span> 2022 MORENT. All rights reserved</p>
+               <div class="privacy">
+               <p>Privacy & Policy</p>
+               <p>Terms & Condition</p>
+               </div>
+           </div>
+       </footer>
+   </div>
+   
+
+
+
+
+
+  </div> 
+</body>
+</html>

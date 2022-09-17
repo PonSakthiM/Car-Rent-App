@@ -1,0 +1,506 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    background-color: #e3e3e3;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+.menubar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    position: relative;
+}
+.leftmenu{
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    padding: 10px;
+}
+h1{
+    color: #3563e9;
+}
+.form{
+    height: 30px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 2px;
+    margin-top: 5px;
+}
+.menubar input[type=text]{
+    width: 150px;
+    background-color: white;
+    border: none;
+    margin-left: 10px;
+}
+.form img{
+    margin-left: 20px;
+    padding-top: 3px;
+}
+.form i{
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.rightmenu{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    position: absolute;
+    right: 60px;
+}
+
+.heart{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(231, 230, 230);
+    padding: 2px;
+    margin-left: 20px;
+    
+}
+#profile{
+    padding-left: 20px;
+}
+.split{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 20%;
+    background-color: white;
+    margin-top: -35px;
+    
+}
+.mainmenu{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.listmark{
+    height: 30px;
+    width: 120px;
+    padding: 5px;
+    color: white;
+    background-color: #3563e9;
+    border-radius: 10px;
+}
+.listmark span{
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.listmode{
+    display: flex;
+    flex-direction: row;
+    
+}
+.listmode span{
+    font-size: 12px;
+    color: #90a3bf;
+    margin-left: 15px;
+}
+.mode{
+    margin-left: 60px;
+    height: 20px;
+    width: 40px;
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+.list span{
+    margin-left: 10px;
+    font-size: 12px;
+    color: #90a3bf;
+    
+}
+.mainmenu h6{
+    letter-spacing: 2px;
+    color: #90a3bf;
+    padding-top: 20px;
+}
+.logout{
+    margin-top: 60px;
+}
+.logout span{
+    margin-left: 10px;
+    font-size: 12px;
+    color: #90a3bf;
+    
+}
+.center{
+    background-color: white;
+    width: 40%;
+    margin-left: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+.center h4{
+    margin-left: 45px;
+}
+#map{
+    margin-left: 40px;
+    margin-top: 10px;
+    border:1px solid #e3e3e3;
+    border-radius: 10px;
+}
+.nissan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.view{
+  
+  height: 100px;
+  width: 150px;
+  background-color: #3563e9;
+  border-radius: 10px;
+  border: 1px solid #3563e9;
+  padding: 30px;
+  margin-top: 5px;
+  margin-left: -15px;
+
+}
+#carview{
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.nissangt h3{
+    margin-top: 35px;
+    margin-left: -100px;
+    
+}
+.nissangt p{
+    margin-left: -100px;
+    font-size: 10px;
+    color: #90a3bf;
+    margin-top: 5px;
+}
+.nissan span{
+    margin-top: 20px;
+    font-size: 10px;
+    margin-right: -15px;
+    color: #90a3bf;
+}
+
+.pickdrop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pickup{
+    width: 430px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    margin-left: 20px;
+    
+
+}
+.pickup img{
+    position: absolute;
+    top: 10px;
+
+}
+.pick{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    font-size: 12px;
+    font-weight: 80px;
+}   
+.location h5{
+    margin-top: 20px;
+    margin-left: 5px;
+
+}
+.location select{
+    background-color: white;
+    border: none;
+    font-size: 10px;
+    color: #90a3bf;
+    margin-top: 10px;
+}
+   
+.date{
+    /*border-left: 1px solid rgb(209, 208, 208);
+    border-right: 1px solid rgb(209, 206, 206);*/
+    height: 40px;
+    width: 130px;
+    margin-left: 50px;
+    padding-left: 5px;
+}
+.date h5{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.date select{
+    background-color: white;
+    border: none;
+    font-size: 10px;
+    color: #90a3bf;
+    margin-top: 10px;
+}
+.time{
+    padding-left: 20px;
+    margin-right: -30px;
+}
+.time h5{
+    margin-top: 20px;
+    
+}
+
+.time select{
+    background-color: white;
+    border: none;
+    font-size: 10px;
+    color: #90a3bf;
+    margin-top: 10px;
+}
+.dropoff{
+    width: 430px;
+    height: 100px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+   margin-left: 20px;
+}
+.dropoff img{
+    position: absolute;
+    top: 10px;
+
+}
+.drop{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    font-size: 12px;
+    font-weight: 80px;    
+}
+
+.totalrent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.totalrent h5{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.totalrent p{
+    font-size: 10px;
+    color: #90a3bf;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.amt{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+.right{
+    width: 40%;
+    margin-left: 20px;
+    margin-right: 70px;
+    border-radius: 10px;
+    margin-top: -10px;
+    
+}
+.top5{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 20px;   
+    position: relative; 
+}
+.rendalcar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.circle{
+    width: 50%;   
+}
+#rectcircle{
+    margin-top: 20px;
+}
+.centercircle{
+    position: absolute;
+    top: 110px;
+    left: 50px;
+}
+.centercircle span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.centercircle p{
+    font-size: 10px;
+    color: #90a3bf;
+    margin-left: 20px;
+}
+
+.cartype{
+    width: 50%;
+}
+.list1{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     line-height: 40px;   
+}
+.rate{
+    font-size: 10px;
+    color: black;
+    margin-right: 10px;
+}
+.list1 p{
+    font-size: 10px;
+    color: #90a3bf;
+    word-spacing: 8px;
+}
+
+.o{
+    color: black;
+    font-size: 10px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.cir{
+    font-size: 15px;
+    color: #0d3559;
+}
+.cir1{
+    font-size: 15px;
+    color: #175d9c;
+}
+.cir2{
+    font-size: 15px;
+    color: #2185de;
+}
+.cir3{
+    font-size: 15px;
+    color: #63a9e8;
+}
+.cir4{
+    font-size: 15px;
+    color: #a6cef2;
+}
+.recent{
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.recent h4{
+    margin-left: 15px;
+}
+.recent button{
+      background-color: white;
+      color: #3563e9;
+      border: none;
+      position: absolute;
+      top: 10px;
+      right: 20px;
+}
+.nissan1{
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+}
+#cars{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.nissangt h5{
+    margin-top: 15px;
+    margin-left: -150px;
+    
+}
+.nissangt span{
+    margin-left: -150px;
+    color: #90a3bf;
+    font-size: 10px;
+}
+.nissangt1 h5{
+    margin-top: 15px; 
+    margin-left: -90px;
+}
+.nissangt1 span{ 
+    margin-left: -90px;  
+    color: #90a3bf;
+    font-size: 10px;
+}
+#cvr{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+.dateamt p{
+   font-size: 10px;
+   color: #90a3bf;
+   margin-top: 15px;
+   margin-right: 10px;
+       
+}
+.dateamt span{
+    font-size: 15px;
+    color: black;
+    margin-left: -15px;
+
+}
+.dateamt1{
+    margin-left: 120px;
+}
+.dateamt1 p{
+    font-size: 10px;
+    color: #90a3bf;
+    margin-top: 15px;
+    padding-right: 10px;
+        
+ }
+ .dateamt1 span{
+     font-size: 15px;
+     color: black;
+     margin-left: -15px;
+ 
+ }
+ .recent hr{
+     width: 450px;
+     margin-left: 15px;
+     color: #90a3bf;
+ }

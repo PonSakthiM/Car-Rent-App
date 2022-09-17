@@ -1,0 +1,487 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    background-color: #e3e3e3;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+}
+.menubar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    position: relative;
+}
+.leftmenu{
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    padding: 10px;
+}
+h1{
+    color: #3563e9;
+}
+.form{
+    height: 30px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 2px;
+    margin-top: 5px;
+}
+.form input[type=text]{
+    width: 150px;
+    background-color: white;
+    border: none;
+    margin-left: 10px;
+}
+.form img{
+    margin-left: 20px;
+    padding-top: 3px;
+}
+.form i{
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.rightmenu{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    position: absolute;
+    right: 85px;
+}
+
+.heart{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(231, 230, 230);
+    padding: 2px;
+    margin-left: 20px;
+    
+}
+#profile{
+    padding-left: 20px;
+}
+
+.rental{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.leftcar{
+    width: 500px;
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    background-color: #54a6ff;
+}
+
+.leftcar h2{
+    color: white;
+    line-height: 30px;
+}
+.leftcar p{
+    font-size: 15px;
+    color: white;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.leftcar img{
+    margin-top: 20px;
+    margin-left: 120px;
+    transition: 1s;
+    transform: rotateY(360deg);
+}
+.leftcar button{
+    position: absolute;
+    top: 150px;
+    background-color: #3563e9;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 80px;
+}
+.rightcar{
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    background-color: #3563e9;
+}
+.rightcar h2{
+    color: white;
+    line-height: 30px;
+}
+.rightcar p{
+    font-size: 15px;
+    color: white;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.rightcar img{
+    margin-top: 20px;
+    margin-left: 140px;
+}
+.rightcar button{
+    position: absolute;
+    top: 150px;
+    background-color: #54a6ff;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 80px;
+}
+.arrow{
+    width: 50px;
+    height: 50px;
+    background-color: #3563e9;
+    position: absolute;
+    top: 400px;
+    left: 650px;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+.arrow span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 2px;
+}
+.pickdrop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pickup{
+    width: 430px;
+    height: 100px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+
+}
+.pickup img{
+    position: absolute;
+    top: 10px;
+
+}
+.pick{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    font-size: 12px;
+    font-weight: 80px;
+}   
+.location h5{
+    margin-top: 20px;
+
+}
+.location select{
+    background-color: white;
+    border: none;
+    font-size: 10px;
+    color: rgb(127, 161, 202);
+    margin-left: -3px;
+}
+.date{
+    /*border-left: 1px solid rgb(209, 208, 208);
+    border-right: 1px solid rgb(209, 206, 206);*/
+    height: 40px;
+    width: 130px;
+    margin-left: 30px;
+    padding-left: 5px;
+}
+.date h5{
+    margin-top: 20px;
+}
+.date select{
+    background-color: white;
+    border: none;
+    font-size: 10px;
+    color: rgb(127, 161, 202);
+    margin-left: -3px;
+}
+.time{
+    padding-left: 20px;
+}
+.time h5{
+    margin-top: 20px;
+}
+.time select{
+    background-color: white;
+    border: none;
+    font-size: 10px;
+    color: rgb(127, 161, 202);
+    margin-left: -2px;
+}
+
+.dropoff{
+    width: 430px;
+    height: 100px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    margin-left: 130px;
+}
+.dropoff img{
+    position: absolute;
+    top: 10px;
+
+}
+.drop{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    font-size: 12px;
+    font-weight: 80px;    
+}
+.popular p{
+    color: rgb(87, 105, 131);
+    font-size: 12px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.popular button{
+    color: blue;
+    font-size: 12px;
+    background-color: #e3e3e3;
+    border: none;
+    position: absolute;
+    top: 490px;
+    right: 90px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 90px;
+    margin-top: 20px;
+    column-gap: 60px;
+}
+.box{
+    height: 220px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 10px; 
+}  
+.box:hover{
+    background-color: rgb(245, 240, 237);
+    border: 1px solid rgb(252, 247, 247);
+}
+.box a{
+    text-decoration: none;
+    color: black;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+   
+
+.top img{
+    margin-left: 70px;
+}
+.sport{
+    font-size: 10px;
+    color: #90a3bf;
+    font-weight: bold;
+    padding-top: 5px;
+}
+#car{
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.box span{
+    font-size: 10px;
+    padding: 2px;   
+    color: #90a3bf;
+}
+.rate{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.rate p{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;   
+}
+.rate p span{
+    color: #90a3bf;
+}
+.rate p span s{
+    font-size: 10px;
+    color: #90a3bf;
+}
+
+.rate button{
+    background-color: #3563e9;
+    margin-left: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 10px;
+    color: white;
+    width: 65px;
+    height: 25px;
+}
+.recomend{
+    color: rgb(87, 105, 131);
+    font-size: 12px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 90px;
+    margin-top: 20px;
+    column-gap: 60px;
+    row-gap: 60px;
+}
+.showcar{
+    display: flex;
+    flex-direction: row;
+}
+.showcar button{
+    font-size: 12px;
+    color:white;
+    background-color: #3563e9;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    margin-left: 390px;
+    margin-top: 50px;
+}
+.showcar p{
+    font-size: 12px;
+    color: black;
+    margin-left: 90px;
+    margin-top: 50px;
+    width: 120px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+}
+.showcar p:hover{
+    background-color: rgb(128, 124, 124);
+    opacity: 0.8;
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+.showcar span{
+    font-size: 10px;
+    color: #90a3bf;
+    margin-left: 470px;
+    margin-top: 50px;
+}
+.bottom{
+    background-color: white;
+}
+.bottomup{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+.rightside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 65px;
+    margin-top: 50px;
+    
+}
+ul{
+    list-style-type: none;
+    padding: 10px;
+
+}
+li{
+    font-size: 12px;
+    color: #131313;
+    padding: 10px;
+}
+.leftside h3{
+    margin-left: 90px;
+    color: #3563e9;
+    margin-top: 50px;
+
+}
+.leftside p{
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #131313; 
+    line-height: 20px;
+}
+.about h5{
+    margin-left: 20px;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.privacy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 65px;
+
+}
+.privacy p{
+    font-weight: bold;
+    padding: 20px;
+}
+
+.p{
+    margin-left: 90px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+hr{
+    width: 88%;
+    margin-left: 80px;
+}
