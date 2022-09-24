@@ -456,6 +456,10 @@ li{
     flex-direction: row;
     justify-content: space-between;
 }
+.foot p span{
+    font-size: 20px; 
+    font-weight: bold;
+}
 .privacy{
     display: flex;
     flex-direction: row;

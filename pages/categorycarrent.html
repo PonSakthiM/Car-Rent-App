@@ -1,404 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Category Car Rent</title>
     <link href="categorystyle.css" rel="Stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
- <div class="container">
-      <div class="menubar">
-          <div class="leftmenu">
-              <h1>MORENT</h1>
-              <div class="form">
-                  <i class="fa fa-search" style="font-size: 15px;"></i>
-                  <input type="text" placeholder="Search something here">
-                  <img src="filter.png"  height="15px" width="15px">
-              </div>
-          </div>
+    <div class="container">
+        <div class="menubar">
+            <div class="leftmenu">
+                <h1>MORENT</h1>
+                <div class="form">
+                    <i class="fa fa-search" style="font-size: 15px;"></i>
+                    <input type="text" placeholder="Search something here">
+                    <img src="../asset/filter.png" height="15px" width="15px">
+                </div>
+            </div>
             <div class="rightmenu">
-              <div class="heart">
-                  <img src="heart.png" height="25px" width="25px">
-              </div>
-              <div class="heart">
-                <img src="notification.png" height="25px" width="25px">
-            </div>
-            <div class="heart">
-                <img src="setting.png" height="25px" width="25px">
-            </div>
-        
-                <img src="Profil.png" id="profile" height="30px" width="50px">
-            
-      </div>
-      </div>
-      <br><br>
-      
-      <div class="arrow">
-          <span>&#8645</span>
-      </div>
-<div class="topsplit">
-      <div class="leftsplit">
-          <br><br>
-          <span class="sidehead">TYPE</span>
-          <form>
-              <input type="checkbox" id="cartype" name="Sport">
-              <label>Sport<span> (10)</span></label><br>
-              <input type="checkbox" id="cartype" name="SUV">
-              <label>Suv<span> (12)</span></label><br>
-              <input type="checkbox" id="cartype" name="MPV">
-              <label>MPV<span> (16)</span></label><br>
-              <input type="checkbox" id="cartype" name="sedan">
-              <label>Sedan<span> (20)</span></label><br>
-              <input type="checkbox" id="cartype" name="Coupe">
-              <label>Coupe<span> (14)</span></label><br>
-              <input type="checkbox" id="cartype" name="Hatchback">
-              <label>Hatchback<span> (14)</span></label><br><br><br>
-          </form>
-          
-          <span class="sidehead">CAPACITY</span><br>
-          <form>
-            <input type="checkbox" id="capacity" name="Person">
-            <label>2 Person<span> (10)</span></label><br>
-            <input type="checkbox" id="cartype" name="Person">
-            <label>4 Person<span> (14)</span></label><br>
-            <input type="checkbox" id="cartype" name="Person">
-            <label>6 Person<span> (12)</span></label><br>
-            <input type="checkbox" id="cartype" name="Person">
-            <label>8 Person<span> (16)</span></label><br><br><br>
-            </form>
-
-          <span class="sidehead">PRICE</span>
-          <div class="pricepic">
-          <div class="curved"></div>
-          <div class="circle"></div>
-          <div class="curved2"></div>
-          </div>
-          <p class="max">Max.$100.00</p>
-          
-      </div>
-
-      <div class="rightsplit">
-      <div class="pickdrop">
-          <div class="pickup">
-            <img src="mark.png" height="15px" width="15px">
-              <b class="pick">Pick-up</b>
-              <div class="location">
-                  <h5>Locations</h5>
-                  <form>
-                   <select>
-                       <option value="">Select your city</option>
-                   </select>
-                  </form>   
+                <div class="heart">
+                    <img src="../asset/heart.png" height="25px" width="25px">
+                </div>
+                <div class="heart">
+                    <img src="../asset/notification.png" height="25px" width="25px">
+                </div>
+                <div class="heart">
+                    <img src="../asset/setting.png" height="25px" width="25px">
                 </div>
 
-                <div class="date">
-                    <h5>Date</h5>
-                    <form>
-                     <select>
-                         <option value="">select your date</select></option>
-                     </select>
-                    </form>   
-                  </div>
+                <img src="../asset/Profil.png" class="profile" height="30px" width="50px">
 
-                  <div class="time">
-                    <h5>Time</h5>
-                    <form>
-                     <select>
-                         <option value="">Select your time</option>
-                     </select>
-                    </form>   
-                  </div>
-          </div>
-        <div class="dropoff">
-            <img src="mark.png" height="15px" width="15px">
-            <b class="drop">Drop-off</b>
-            <div class="location">
-                <h5>Locations</h5>
+            </div>
+        </div>
+
+        <div class="topsplit">
+            <div class="leftsplit">
+                <span class="sidehead">TYPE</span>
                 <form>
-                 <select>
-                     <option value="">Select your city</option>
-                 </select>
-                </form>   
-              </div>
+                    <input type="checkbox" id="cartype" name="Sport">
+                    <label>Sport<span> (10)</span></label><br>
+                    <input type="checkbox" id="cartype" name="SUV">
+                    <label>Suv<span> (12)</span></label><br>
+                    <input type="checkbox" id="cartype" name="MPV">
+                    <label>MPV<span> (16)</span></label><br>
+                    <input type="checkbox" id="cartype" name="sedan">
+                    <label>Sedan<span> (20)</span></label><br>
+                    <input type="checkbox" id="cartype" name="Coupe">
+                    <label>Coupe<span> (14)</span></label><br>
+                    <input type="checkbox" id="cartype" name="Hatchback">
+                    <label>Hatchback<span> (14)</span></label><br><br><br>
+                </form>
 
-              <div class="date">
-                  <h5>Date</h5>
-                  <form>
-                   <select>
-                       <option value="">Select your date</option>
-                   </select>
-                  </form>   
+                <span class="sidehead">CAPACITY</span><br>
+                <form>
+                    <input type="checkbox" id="capacity" name="Person">
+                    <label>2 Person<span> (10)</span></label><br>
+                    <input type="checkbox" id="cartype" name="Person">
+                    <label>4 Person<span> (14)</span></label><br>
+                    <input type="checkbox" id="cartype" name="Person">
+                    <label>6 Person<span> (12)</span></label><br>
+                    <input type="checkbox" id="cartype" name="Person">
+                    <label>8 Person<span> (16)</span></label><br><br><br>
+                </form>
+
+                <span class="sidehead">PRICE</span>
+                <div class="pricepic">
+                    <div class="curved"></div>
+                    <div class="circle"></div>
+                    <div class="curved2"></div>
+                </div>
+                <p class="max">Max.$100.00</p>
+
+            </div>
+
+            <div class="rightsplit">
+                <div class="arrow">
+                    <span>&#8645</span>
+                </div>
+                <div class="pickdrop">
+                    <div class="pickup">
+                        <img src="../asset/mark.png" height="15px" width="15px">
+                        <b class="pick">Pick-up</b>
+                        <div class="location">
+                            <h5>Locations</h5>
+                            <form>
+                                <select>
+                                    <option value="">Select your city</option>
+                                </select>
+                            </form>
+                        </div>
+
+                        <div class="date">
+                            <h5>Date</h5>
+                            <form>
+                                <select>
+                                    <option value="">select your date
+                                </select></option>
+                                </select>
+                            </form>
+                        </div>
+
+                        <div class="time">
+                            <h5>Time</h5>
+                            <form>
+                                <select>
+                                    <option value="">Select your time</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="dropoff">
+                        <img src="../asset/mark.png" height="15px" width="15px">
+                        <b class="drop">Drop-off</b>
+                        <div class="location">
+                            <h5>Locations</h5>
+                            <form>
+                                <select>
+                                    <option value="">Select your city</option>
+                                </select>
+                            </form>
+                        </div>
+
+                        <div class="date">
+                            <h5>Date</h5>
+                            <form>
+                                <select>
+                                    <option value="">Select your date</option>
+                                </select>
+                            </form>
+                        </div>
+
+                        <div class="time">
+                            <h5>Time</h5>
+                            <form>
+                                <select>
+                                    <option value="">select your time</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid1">
+                    <div class="box"><a href="#">
+                            <div class="top">
+                                <h5>Koenigsegg</h5>
+                                <img src="../asset/redheart.png" class="redheart" height="15px" width="15px">
+                            </div>
+                            <p class="sport">Sport</p>
+                            <img src="../asset/cars1.png" class="car" height="50px" width="150px">
+                            <div class="details">
+                                <img src="../asset/gas-station.png" height="12px" width="12px">
+                                <span>90L</span>
+                                <img src="../asset/manual.png" height="12px" width="12px">
+                                <span>Manual</span>
+                                <img src="../asset/profile-2user.png" height="12px" width="12px">
+                                <span>2 People</span>
+                            </div>
+                            <div class="rate">
+                                <p class="rates">$99.00/<span>day</span></p>
+                                <button>Rent Now</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box"><a href="file:///home/ponsakthi/Desktop/Car%20Rent%20App/pages/detailcarrent.html">
+                            <div class="top">
+                                <h5>NissanGT-R</h5>
+                                <img src="../asset/whiteheart.png" class="redheart" height="15px" width="15px">
+                            </div>
+                            <p class="sport">Sport</p>
+                            <img src="../asset/car2.png" class="car" height="50px" width="150px">
+                            <div class="details">
+                                <img src="../asset/gas-station.png" height="12px" width="12px">
+                                <span>80L</span>
+                                <img src="../asset/manual.png" height="12px" width="12px">
+                                <span>Manual</span>
+                                <img src="../asset/profile-2user.png" height="12px" width="12px">
+                                <span>2 People</span>
+                            </div>
+                            <div class="rate">
+                                <p class="ratredis">$80.00/<span>day<br><s>$100.00</s></span></p>
+                                <button>Rent Now</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box"><a href="#">
+                            <div class="top">
+                                <h5>Rolls-Royce</h5>
+                                <img src="../asset/redheart.png" class="redheart" height="15px" width="15px">
+                            </div>
+                            <p class="sport">Sedan</p>
+                            <img src="../asset/Car3.png" class="car" height="50px" width="150px">
+                            <div class="details">
+                                <img src="../asset/gas-station.png" height="12px" width="12px">
+                                <span>70L</span>
+                                <img src="../asset/manual.png" height="12px" width="12px">
+                                <span>Manual</span>
+                                <img src="../asset/profile-2user.png" height="12px" width="12px">
+                                <span>4 People</span>
+                            </div>
+                            <div class="rate">
+                                <p class="rates">$96.00/<span>day</span></p>
+                                <button>Rent Now</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box"><a href="#">
+                            <div class="top">
+                                <h5>AllNewRush</h5>
+                                <img src="../asset/whiteheart.png" class="redheart" height="15px" width="15px">
+                            </div>
+                            <p class="sport">SUV</p>
+                            <img src="../asset/Car5.png" class="car" height="50px" width="150px">
+                            <div class="details">
+                                <img src="../asset/gas-station.png" height="12px" width="12px">
+                                <span>70L</span>
+                                <img src="../asset/manual.png" height="12px" width="12px">
+                                <span>Manual</span>
+                                <img src="../asset/profile-2user.png" height="12px" width="12px">
+                                <span>6 People</span>
+                            </div>
+                            <div class="rate">
+                                <p class="ratetdis">$72.00/<span>day<br><s>$80.00</s></span></p>
+                                <button>Rent Now</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box"><a href="">
+                            <div class="top">
+                                <h5>CR-V</h5>
+                                <img src="../asset/redheart.png" class="redheart" height="15px" width="15px"
+                                    style="margin-left: 115px;">
+                            </div>
+                            <p class="sport">SUV</p>
+                            <img src="../asset/Car6.png" class="car" height="50px" width="150px">
+                            <div class="details">
+                                <img src="../asset/gas-station.png" height="12px" width="12px">
+                                <span>80L</span>
+                                <img src="../asset/manual.png" height="12px" width="12px">
+                                <span>Manual</span>
+                                <img src="../asset/profile-2user.png" height="12px" width="12px">
+                                <span>6 People</span>
+                            </div>
+                            <div class="rate">
+                                <p class="rates">$80.00/<span>day</span></p>
+                                <button>Rent Now</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box"><a href="#">
+                            <div class="top">
+                                <h5>AllNewTerios</h5>
+                                <img src="../asset/whiteheart.png" class="redheart" height="15px" width="15px"
+                                    style="margin-left: 65px;">
+                            </div>
+                            <p class="sport">SUV</p>
+                            <img src="../asset/Car7.png" class="car" height="50px" width="150px">
+                            <div class="details">
+                                <img src="../asset/gas-station.png" height="12px" width="12px">
+                                <span>90L</span>
+                                <img src="../asset/manual.png" height="12px" width="12px">
+                                <span>Manual</span>
+                                <img src="../asset/profile-2user.png" height="12px" width="12px">
+                                <span>6 People</span>
+                            </div>
+                            <div class="rate">
+                                <p class="rates">$74.00/<span>day</span></p>
+                                <button>Rent Now</button>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="box"><a href="#">
+                            <div class="top">
+                                <h5>MGZXExclusive</h5>
+                                <img src="../asset/redheart.png" height="15px" width="15px" style="margin-left: 48px;">
+                            </div>
+                            <p class="sport">Hetchback</p>
+                            <img src="../asset/Car9.png" class="car" height="50px" width="150px">
+                            <div class="details">
+                                <img src="../asset/gas-station.png" height="12px" width="12px">
+                                <span>70L</span>
+                                <img src="../asset/manual.png" height="12px" width="12px">
+                                <span>Manual</span>
+                                <img src="../asset/profile-2user.png" height="12px" width="12px">
+                                <span>4 People</span>
+                            </div>
+                            <div class="rate">
+                                <p class="ratedis">$76.00/<span>day<br><s>$80.00</s></span></p>
+                                <button>Rent Now</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box"><a href="#">
+                            <div class="top">
+                                <h5>NewMGZS</h5>
+                                <img src="../asset/whiteheart.png" class="redheart" height="15px" width="15px"
+                                    style="margin-left: 82px;">
+                            </div>
+                            <p class="sport">SUV</p>
+                            <img src="../asset/Car10).png" class="car" height="50px" width="150px">
+                            <div class="details">
+                                <img src="../asset/gas-station.png" height="12px" width="12px">
+                                <span>80L</span>
+                                <img src="../asset/manual.png" height="12px" width="12px">
+                                <span>Manual</span>
+                                <img src="../asset/profile-2user.png" height="12px" width="12px">
+                                <span>6 People</span>
+                            </div>
+                            <div class="rate">
+                                <p class="rates">$80.00/<span>day</span></p>
+                                <button>Rent Now</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box"><a href="#">
+                            <div class="top">
+                                <h5>MGZXExcite</h5>
+                                <img src="../asset/redheart.png" class="redheart" height="15px" width="15px">
+                            </div>
+                            <p class="sport">Hatchback</p>
+                            <img src="../asset/Car11.png" class="car" height="50px" width="150px">
+                            <div class="details">
+                                <img src="../asset/gas-station.png" height="12px" width="12px">
+                                <span>90L</span>
+                                <img src="../asset/manual.png" height="12px" width="12px">
+                                <span>Manual</span>
+                                <img src="../asset/profile-2user.png" height="12px" width="12px">
+                                <span>4 People</span>
+                            </div>
+                            <div class="rate">
+                                <p class="rates">$74.00/<span>day</span></p>
+                                <button>Rent Now</button>
+                            </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="showcar">
+                    <p><a href="">Categories of Car</a></p>
+                    <button>Show More Car</button>
+                    <span>120Car</span>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bottomup">
+                <div class="leftside">
+                    <h3>MORENT</h3>
+                    <p>Our vision is to provide convenience<br>and help increase your sales business.</p>
                 </div>
 
-                <div class="time">
-                  <h5>Time</h5>
-                  <form>
-                   <select>
-                       <option value="">select your time</option>
-                   </select>
-                  </form>   
+                <div class="rightside">
+                    <div class="about">
+                        <h5>About</h5>
+                        <ul>
+                            <li>How it works</li>
+                            <li>Featured</li>
+                            <li>Partnership</li>
+                            <li>Business Relation</li>
+                        </ul>
+                    </div>
+                    <div class="about">
+                        <h5>Community</h5>
+                        <ul>
+                            <li>Events</li>
+                            <li>Blog</li>
+                            <li>Podcast</li>
+                            <li>Invite a Friends</li>
+                        </ul>
+                    </div>
+                    <div class="about">
+                        <h5>Socials</h5>
+                        <ul>
+                            <li>Discord</li>
+                            <li>Instagram</li>
+                            <li>Twitter</li>
+                            <li>Facebook</li>
+                        </ul>
+                    </div>
                 </div>
-        </div>
-      </div>
- 
-      
-
-      <div class="grid1">
-          <div class="box"><a href="#">
-                <div class="top">  
-              <h5>Koenigsegg</h5>
-              <img src="redheart.png" id="redheart" height="15px" width="15px">
-              </div>
-              <p class="sport">Sport</p>
-              <img src="cars1.png" id="car"  height="50px"  width="150px">
-              <div class="details">
-                  <img src="gas-station.png" height="12px" width="12px">
-                  <span>90L</span>
-                  <img src="manual.png" height="12px" width="12px">
-                  <span>Manual</span>
-                  <img src="profile-2user.png" height="12px" width="12px">
-                  <span>2 People</span>
-              </div>
-              <div class="rate">
-                  <p style="padding-top: 5px;">$99.00/<span>day</span></p>
-                  <button>Rent Now</button>
-              </div>
-              </a>
-          </div>
-          <div class="box"><a href="file:///home/ponsakthi/Desktop/Car%20Rent%20App/detailcarrent.html">
-                <div class="top">    
-            <h5>NissanGT-R</h5>
-            <img src="whiteheart.png" id="heart" height="15px" width="15px">
-              </div>
-            <p class="sport">Sport</p>
-            <img src="car2.png"  id="car" height="50px"  width="150px">
-            <div class="details">
-                <img src="gas-station.png" height="12px" width="12px">
-                <span>80L</span>
-                <img src="manual.png" height="12px" width="12px">
-                <span>Manual</span>
-                <img src="profile-2user.png" height="12px" width="12px">
-                <span>2 People</span>
             </div>
-            <div class="rate">
-                <p style="line-height: 12px;">$80.00/<span>day<br><s>$100.00</s></span></p>
-                <button>Rent Now</button>
-            </div>
-        </a>
+            <hr>
+            <footer>
+                <div class="foot">
+                    <p class="p"><span>&copy;</span> 2022 MORENT. All rights
+                        reserved</p>
+                    <div class="privacy">
+                        <p>Privacy & Policy</p>
+                        <p>Terms & Condition</p>
+                    </div>
+                </div>
+            </footer>
         </div>
-        <div class="box"><a href="#">
-                <div class="top">     
-            <h5>Rolls-Royce</h5>
-            <img src="redheart.png" id="heart" height="15px" width="15px">
-              </div>
-            <p class="sport">Sedan</p>
-            <img src="Car3.png" id="car"  height="50px"  width="150px">
-            <div class="details">
-                <img src="gas-station.png" height="12px" width="12px">
-                <span>70L</span>
-                <img src="manual.png" height="12px" width="12px">
-                <span>Manual</span>
-                <img src="profile-2user.png" height="12px" width="12px">
-                <span>4 People</span>
-            </div>
-            <div class="rate">
-                <p style="padding-top: 5px;">$96.00/<span>day</span></p>
-                <button>Rent Now</button>
-            </div></a>
-        </div>
-        <div class="box"><a href="#">
-            <div class="top">  
-          <h5>AllNewRush</h5>
-          <img src="whiteheart.png" id="redheart" height="15px" width="15px">
-          </div>
-          <p class="sport">SUV</p>
-          <img src="Car5.png" id="car"  height="50px"  width="150px">
-          <div class="details">
-              <img src="gas-station.png" height="12px" width="12px">
-              <span>70L</span>
-              <img src="manual.png" height="12px" width="12px">
-              <span>Manual</span>
-              <img src="profile-2user.png" height="12px" width="12px">
-              <span>6 People</span>
-          </div>
-          <div class="rate">
-              <p style="line-height: 12px;">$72.00/<span>day<br><s>$80.00</s></span></p>
-              <button>Rent Now</button>
-          </div></a>
-      </div>
-      <div class="box"><a href="">
-        <div class="top">  
-      <h5>CR-V</h5>
-      <img src="redheart.png" id="redheart" height="15px" width="15px" style="margin-left: 115px;">
-      </div>
-      <p class="sport">SUV</p>
-      <img src="Car6.png" id="car"  height="50px"  width="150px">
-      <div class="details">
-          <img src="gas-station.png" height="12px" width="12px">
-          <span>80L</span>
-          <img src="manual.png" height="12px" width="12px">
-          <span>Manual</span>
-          <img src="profile-2user.png" height="12px" width="12px">
-          <span>6 People</span>
-      </div>
-      <div class="rate">
-          <p style="padding-top: 5px;">$80.00/<span>day</span></p>
-          <button>Rent Now</button>
-      </div></a>
-  </div>
-  <div class="box"><a href="#">
-    <div class="top">  
-  <h5>AllNewTerios</h5>
-  <img src="whiteheart.png" id="redheart" height="15px" width="15px" style="margin-left: 65px;">
-  </div>
-  <p class="sport">SUV</p>
-  <img src="Car7.png" id="car"  height="50px"  width="150px">
-  <div class="details">
-      <img src="gas-station.png" height="12px" width="12px">
-      <span>90L</span>
-      <img src="manual.png" height="12px" width="12px">
-      <span>Manual</span>
-      <img src="profile-2user.png" height="12px" width="12px">
-      <span>6 People</span>
-  </div>
-  <div class="rate">
-      <p style="padding-top: 5px;">$74.00/<span>day</span></p>
-      <button>Rent Now</button>
-  </div>
-</a>
-</div>
-
-<div class="box"><a href="#">
-    <div class="top">  
-  <h5>MGZXExclusive</h5>
-  <img src="redheart.png"  height="15px" width="15px" style="margin-left: 48px;">
-  </div>
-  <p class="sport">Hetchback</p>
-  <img src="Car9.png" id="car"  height="50px"  width="150px">
-  <div class="details">
-      <img src="gas-station.png" height="12px" width="12px">
-      <span>70L</span>
-      <img src="manual.png" height="12px" width="12px">
-      <span>Manual</span>
-      <img src="profile-2user.png" height="12px" width="12px">
-      <span>4 People</span>
-  </div>
-  <div class="rate">
-      <p style="line-height: 12px;">$76.00/<span>day<br><s>$80.00</s></span></p>
-      <button>Rent Now</button>
-  </div></a>
-</div>
-<div class="box"><a href="#">
-    <div class="top">  
-  <h5>NewMGZS</h5>
-  <img src="whiteheart.png" id="redheart" height="15px" width="15px" style="margin-left: 82px;">
-  </div>
-  <p class="sport">SUV</p>
-  <img src="Car10).png" id="car"  height="50px"  width="150px">
-  <div class="details">
-      <img src="gas-station.png" height="12px" width="12px">
-      <span>80L</span>
-      <img src="manual.png" height="12px" width="12px">
-      <span>Manual</span>
-      <img src="profile-2user.png" height="12px" width="12px">
-      <span>6 People</span>
-  </div>
-  <div class="rate">
-      <p style="padding-top: 5px;">$80.00/<span>day</span></p>
-      <button>Rent Now</button>
-  </div></a>
-</div>
-<div class="box"><a href="#">
-    <div class="top">  
-  <h5>MGZXExcite</h5>
-  <img src="redheart.png" id="redheart" height="15px" width="15px">
-  </div>
-  <p class="sport">Hatchback</p>
-  <img src="Car11.png" id="car"  height="50px"  width="150px">
-  <div class="details">
-      <img src="gas-station.png" height="12px" width="12px">
-      <span>90L</span>
-      <img src="manual.png" height="12px" width="12px">
-      <span>Manual</span>
-      <img src="profile-2user.png" height="12px" width="12px">
-      <span>4 People</span>
-  </div>
-  <div class="rate">
-      <p style="padding-top: 5px;">$74.00/<span>day</span></p>
-      <button>Rent Now</button>
-  </div>
-  </div>
-</a>
-  </div>     
-  
-
-<div class="showcar">
- <p><a href="">Categories of Car</a></p>
- <button>Show More Car</button>
- <span>120Car</span>
-</div>
-</div>
-</div>
-<br><br><br>
-<div class="bottom">
-<div class="bottomup">
-   <div class="leftside">
-       <h3>MORENT</h3>
-       <p>Our vision is to provide convenience<br>and help increase your sales business.</p>
-       </div>
-
-       <div class="rightside">
-           <div class="about">
-               <h5>About</h5>
-               <ul>
-                   <li>How it works</li>
-                   <li>Featured</li>
-                   <li>Partnership</li>
-                   <li>Business Relation</li>
-               </ul>
-           </div>
-           <div class="about">
-            <h5>Community</h5>
-            <ul>
-                <li>Events</li>
-                <li>Blog</li>
-                <li>Podcast</li>
-                <li>Invite a Friends</li>
-            </ul>
-           </div>
-           <div class="about">
-            <h5>Socials</h5>
-            <ul>
-                <li>Discord</li>
-                <li>Instagram</li>
-                <li>Twitter</li>
-                <li>Facebook</li>
-            </ul>
-           </div>
-       </div>
-      </div>
-       <br><br>
-       <hr>
-       <footer>
-           <div class="foot">
-               <p class="p"><span style="font-size: 20px; font-weight: bold;">&copy;</span> 2022 MORENT. All rights reserved</p>
-               <div class="privacy">
-               <p>Privacy & Policy</p>
-               <p>Terms & Condition</p>
-               </div>
-           </div>
-       </footer>
-   </div>
-   
-
-
-
-
-
-  </div> 
+    </div>
 </body>
 </html>

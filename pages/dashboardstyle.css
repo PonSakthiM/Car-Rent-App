@@ -68,7 +68,7 @@ h1{
     margin-left: 20px;
     
 }
-#profile{
+.profile{
     padding-left: 20px;
 }
 .split{
@@ -145,11 +145,12 @@ h1{
     padding-top: 10px;
     border-radius: 10px;
     margin-top: -10px;
+    margin-bottom: 20px;
 }
 .center h4{
     margin-left: 45px;
 }
-#map{
+.map{
     margin-left: 40px;
     margin-top: 10px;
     border:1px solid #e3e3e3;
@@ -172,7 +173,7 @@ h1{
   margin-left: -15px;
 
 }
-#carview{
+.carview{
     margin-left: -10px;
     margin-top: 10px;
 }
@@ -238,10 +239,7 @@ h1{
     color: #90a3bf;
     margin-top: 10px;
 }
-   
 .date{
-    /*border-left: 1px solid rgb(209, 208, 208);
-    border-right: 1px solid rgb(209, 206, 206);*/
     height: 40px;
     width: 130px;
     margin-left: 50px;
@@ -332,7 +330,7 @@ h1{
     margin-right: 70px;
     border-radius: 10px;
     margin-top: -10px;
-    
+    margin-bottom: 20px;    
 }
 .top5{
     background-color: white;
@@ -349,7 +347,7 @@ h1{
 .circle{
     width: 50%;   
 }
-#rectcircle{
+.rectcircle{
     margin-top: 20px;
 }
 .centercircle{
@@ -438,9 +436,9 @@ h1{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    
+        margin-bottom: 20px;  
 }
-#cars{
+.cars{
     margin-top: 20px;
     margin-left: 10px;
 }
@@ -464,7 +462,7 @@ h1{
     color: #90a3bf;
     font-size: 10px;
 }
-#cvr{
+.cvr{
     margin-left: 10px;
     margin-top: 20px;
 }
