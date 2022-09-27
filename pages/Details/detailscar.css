@@ -1,37 +1,32 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.container {
+.container{
     width: 100%;
-    background-color: #e3e3e3;
-    position: relative;
+    background-color: #e3e3e3;    
     font-family: 'Quicksand', sans-serif;
 }
-
-.menubar {
+.menubar{
     width: 100%;
     display: flex;
     flex-direction: row;
     background-color: white;
-    position: relative;
+
 }
-
-.leftmenu {
-
+.leftmenu{
+    
     display: flex;
     flex-direction: row;
     margin-left: 80px;
     padding: 10px;
 }
-
-h1 {
+h1{
     color: #3563e9;
 }
-
-.form {
+.form{
     height: 30px;
     width: 250px;
     border: 1px solid black;
@@ -40,109 +35,75 @@ h1 {
     padding: 2px;
     margin-top: 5px;
 }
-
-.form input[type=text] {
+.form input[type=text]{
     width: 150px;
     background-color: white;
     border: none;
     margin-left: 10px;
+    outline: none;
 }
-
-.form img {
+.form img{
     margin-left: 20px;
     padding-top: 3px;
 }
-
-.form i {
+.form i{
     margin-left: 10px;
     padding-top: 5px;
 }
-
-.rightmenu {
-
+.rightmenu{
+    
     display: flex;
     flex-direction: row;
     padding: 10px;
     position: absolute;
-    right: 85px;
+    right: 60px;
 }
 
-.heart {
+.heart{
     width: 30px;
     height: 30px;
     border-radius: 20px;
     border: 1px solid rgb(231, 230, 230);
     padding: 2px;
     margin-left: 20px;
-
+    
 }
-
-.profile {
+#profile{
     padding-left: 20px;
 }
-
-
-.arrow {
-    width: 50px;
-    height: 50px;
-    background-color: #3563e9;
-    position: absolute;
-    top: 150px;
-    right: 515px;
-    padding: 15px;
-    border-radius: 10px;
-    z-index: 1;
-
-}
-
-.arrow span {
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 2px;
-}
-
-.topsplit {
+.topsplit{
     width: 100%;
     display: flex;
     flex-direction: row;
 
 }
-
-.leftsplit {
+.leftsplit{
     width: 25%;
     margin-bottom: -60px;
     background-color: white;
 
 }
-
-.sidehead {
+.sidehead{
     font-size: 10px;
     color: #90a3bf;
     font-weight: bold;
     margin-left: 90px;
-
-
+    
+    
 }
-
-form {
+form{
     margin-left: 90px;
-
-
 }
-
-.leftsplit label {
+.leftsplit label{
     padding-top: 20px;
     line-height: 40px;
     font-size: 15px;
     color: #596780;
 }
-
-form label span {
+form label span{
     color: #90a3bf;
 }
-
-.curved {
+.curved{
     height: 10px;
     width: 150px;
     background-color: #3563e9;
@@ -153,15 +114,13 @@ form label span {
 
 
 }
-
-.pricepic {
+.pricepic{
     display: flex;
     flex-direction: row;
     margin-left: 90px;
     margin-top: 20px;
 }
-
-.curved::after {
+.curved::after{
     background-color: white;
     content: " ";
     position: absolute;
@@ -169,22 +128,20 @@ form label span {
     left: 130px;
     bottom: 0;
     width: 20px;
-    border-radius: 100px 0 0 100px;
+    border-radius: 100px 0 0  100px;
 
 }
-
-.circle {
+.circle{
     height: 10px;
     width: 10px;
     background-color: #3563e9;
     border-radius: 5px;
     position: absolute;
-    top: 645px;
+    top: 609px;
     left: 224px;
     z-index: 1;
 }
-
-.curved2 {
+.curved2{
     height: 10px;
     width: 50px;
     background-color: #90a3bf;
@@ -194,216 +151,324 @@ form label span {
     border-bottom-right-radius: 5px;
 
 
-
+    
 }
-
-.curved2::after {
-    background-color: white;
-    content: " ";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 10px;
-    border-radius: 0 100px 100px 0;
-}
-
-.max {
+.curved2::after{
+        background-color: white;
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 10px;
+        border-radius: 0 100px 100px  0;
+     }
+.max{
     margin-top: 10px;
     margin-left: 90px;
     font-size: 12px;
     color: #596780;
 }
-
-.pickdrop {
+.details{
+    margin-top: -20px;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+
+}
+.design{
+    width: 400px;
+    height: 250px;
+    background-color: #3563e9;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+}
+.design h3{
+    color: white;
+    line-height: 25px;
+}
+.design p{
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.design img{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.parts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left:-10px;
+}
+.view{
+    height: 100px;
+    width: 100px;
+    background-color: #3563e9;
+    border-radius: 10px;
+    border: 1px solid #3563e9;
+    padding: 30px;
+    margin-top: 10px;
+    outline-style: double;
+    outline-color: #596780; 
+    
 }
 
-.pickup {
-    width: 430px;
-    height: 100px;
-    border: 1px solid white;
+#carview{
+  margin-left: -20px;
+}
+.designdetails{
+    width: 300px;
+    height: 370px;
     background-color: white;
     border-radius: 10px;
+    padding: 20px;
+    margin-left: 180px;    
+    position: relative;
+}
+.checked{
+    color: orange;
+}
+.review{
+    font-size: 10px;
+    color: #596780;
+}
+.para{
+    font-size: 12px;
+    color: #596780;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.typecar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+table{
+    width: 300px;
+    margin-left: -15px;
     margin-top: 30px;
+
+}
+table th{
+    font-size: 12px;
+    color: #90a3bf;
+    padding: 5px;
+}
+
+table td{
+    font-size: 12px;
+    color: #596780;
+
+}
+.amount{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.amount button{
+    background-color: #3563e9;
+    margin-left: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 70px;
+    font-size: 15px;
+    color: white;
+    width: 100px;
+    height: 50px;   
+}
+.amount button:hover{
+    background-color: #3563e9;
+    opacity: 0.5;
+}
+.amount a{
+    text-decoration: none;
+    color: white;
+}
+.amount p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.amount p span{
+    color: #596780;
+    font-size: 12px;
+}
+.amount p s{
+    color: #596780;
+    font-size: 12px;
+}
+.reviews{
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding: 10px;
+    width: 920px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}   
+.rehead{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.count{
+    width: 30px;
+    height: 20px;
+    margin-left: 5px;
+    background-color: #3563e9;
+    border-radius: 5px;
+    color: white;
+    padding-top: 3px;
+    font-size: 12px;
+    text-align: center;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.name{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}   
+.name span{
+    font-size: 12px;
+    color: #90a3bf;
+}
+.reviewdate{
+    margin-left: 630px;
+}
+.reviewdate1{
+    margin-left: 640px;
+}
+.reviewdate p{
+    font-size: 12px;
+    color: #90a3bf;
+    margin-left: 25px;
+    
+}
+.reviewdate1 p{
+    font-size: 12px;
+    color: #90a3bf;
+    margin-left: 25px;
+}
+.para1{
+    font-size: 12px;
+    color: #90a3bf;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.showall{
+    margin-left: 400px;
+    font-size: 12px;
+}
+.showall label{
+    color: #90a3bf;
+}
+.showall select{
+    border: none;
+    background-color: white;
+    color: #90a3bf;
+}
+.recent{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
-    position: relative;
-    margin-left: 30px;
-
 }
-
-.pickup img {
-    position: absolute;
-    top: 10px;
-
-}
-
-.pick {
-    position: absolute;
-    top: 10px;
-    left: 40px;
+.recent p{
+    color: #596780;
     font-size: 12px;
-    font-weight: 80px;
+    margin-left: 35px;
 }
-
-.location h5 {
-    margin-top: 20px;
-
-}
-
-.location select {
-    background-color: white;
+.recent button{
+    color: #3563e9;
+    background-color: #e3e3e3;
     border: none;
-    font-size: 10px;
-    color: rgb(127, 161, 202);
-    margin-left: -93px;
+    margin-right: 25px;
 }
-.date {
-    margin-left: 30px;
-    padding-left: 5px;
-}
-
-.date h5 {
-    margin-top: 20px;
-}
-
-.date select {
-    background-color: white;
-    border: none;
-    font-size: 10px;
-    color: rgb(127, 161, 202);
-    margin-left: -93px;
-}
-
-.time {
-    padding-left: 20px;
-}
-
-.time h5 {
-    margin-top: 20px;
-}
-
-.time select {
-    background-color: white;
-    border: none;
-    font-size: 10px;
-    color: rgb(127, 161, 202);
-    margin-left: -92px;
-}
-
-.dropoff {
-    width: 430px;
-    height: 100px;
-    border: 1px solid white;
-    background-color: white;
-    border-radius: 10px;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
-    position: relative;
-    margin-left: 30px;
-}
-
-.dropoff img {
-    position: absolute;
-    top: 10px;
-
-}
-
-.drop {
-    position: absolute;
-    top: 10px;
-    left: 40px;
-    font-size: 12px;
-    font-weight: 80px;
-}
-
-.grid1 {
+.grid1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 25px;
     row-gap: 50px;
     column-gap: 170px;
 }
-
-.box {
+.box{
     height: 220px;
     width: 180px;
     border-radius: 5px;
     background-color: white;
     padding-left: 10px;
-}
-
-.box:hover {
+    position: relative; 
+}  
+.box:hover{
     background-color: rgb(245, 240, 237);
     border: 1px solid rgb(252, 247, 247);
 }
-
-.box a {
+.box a{
     text-decoration: none;
     color: black;
 }
-
-.top {
+.top{
     display: flex;
     flex-direction: row;
     margin-top: 10px;
 }
+   
 
-
-.top img {
+.top img{
     margin-left: 70px;
 }
-
-.sport {
+.sport{
     font-size: 10px;
     color: #90a3bf;
     font-weight: bold;
     padding-top: 5px;
 }
-
-.car {
+.car{
     margin-top: 30px;
     margin-left: 5px;
     margin-bottom: 20px;
 }
-
-.box span {
+.box span{
     font-size: 10px;
-    padding: 2px;
+    padding: 2px;   
     color: #90a3bf;
 }
-
-.rate {
+.rate{
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
-}
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 
-.rate p {
+}
+.rate p{
     font-size: 15px;
     color: black;
-    font-weight: bold;
+    font-weight: bold;   
 }
-
-.rate p span {
+.rate p span{
     color: #90a3bf;
 }
-
-.rate p span s {
+.rate p span s{
     font-size: 10px;
     color: #90a3bf;
 }
 
-.rate button {
+.rate button{
     background-color: #3563e9;
     margin-left: 25px;
     border: none;
@@ -414,159 +479,121 @@ form label span {
     width: 65px;
     height: 25px;
 }
-
-.recomend {
+.recomend{
     color: rgb(87, 105, 131);
     font-size: 12px;
     margin-left: 90px;
     margin-top: 20px;
 }
-
-.showcar {
+.details{
+    margin-top: 10px;
+}
+.showcar{
     display: flex;
     flex-direction: row;
 }
-
-.showcar button {
+.showcar button{
     font-size: 12px;
-    color: white;
+    color:white;
     background-color: #3563e9;
     border: none;
     border-radius: 5px;
     height: 30px;
     width: 150px;
-    margin-left: 250px;
+    margin-left: 400px;
     margin-top: 50px;
 }
-
-.showcar p {
-    font-size: 12px;
-    color: black;
-    margin-left: 30px;
-    margin-top: 50px;
-    width: 120px;
-    height: 30px;
-    background-color: blue;
-    border-radius: 5px;
-    padding: 8px;
-    font-weight: bold;
-}
-
-.showcar p:hover {
-    background-color: rgb(128, 124, 124);
-    opacity: 0.8;
-}
-
-.showcar a {
-    color: white;
-    text-decoration: none;
-
-}
-
-.showcar span {
+.showcar span{
     font-size: 10px;
     color: #90a3bf;
-    margin-left: 330px;
+    margin-left: 320px;
     margin-top: 60px;
 }
-
-.bottom {
+.bottom{
     background-color: white;
 }
-
-.bottomup {
+.bottomup{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: white;
-
 }
-
-.rightside {
+.rightside{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-right: 65px;
+    margin-right: 50px;
     margin-top: 50px;
-
+    
 }
-
-ul {
+ul{
     list-style-type: none;
     padding: 10px;
 
 }
-
-li {
+li{
     font-size: 12px;
     color: #131313;
     padding: 10px;
 }
-
-.leftside h3 {
+.leftside h3{
     margin-left: 90px;
     color: #3563e9;
     margin-top: 50px;
 
 }
-
-.leftside p {
+.leftside p{
     margin-left: 90px;
     margin-top: 20px;
     font-size: 12px;
-    color: #131313;
+    color: #131313; 
     line-height: 20px;
 }
-
-.about h5 {
+.about h5{
     margin-left: 20px;
 }
-
-.foot {
+.foot{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
-.privacy {
+.privacy{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-right: 65px;
+    margin-right: 50px;
 
 }
-
-.privacy p {
+.privacy p{
     font-weight: bold;
     padding: 20px;
 }
 
-.p {
+.p{
     margin-left: 90px;
-    margin-top: 20px;
+    margin-top: 20px;   
     font-weight: bold;
 }
-
-.p span {
-    font-size: 20px;
+.p span{
+    font-size: 20px; 
     font-weight: bold;
 }
-
-.rates {
+.rates{
     padding-top: 5px;
 }
-
-.ratedis {
+.ratedis{
     line-height: 12px;
 }
-
-hr {
-    width: 88%;
+hr{
+    width: 90%;
     margin-left: 80px;
 }
-
-.rightsplit {
+.nisheart{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.rightsplit{
     margin-bottom: 30px;
-    margin-top: 40px;
 }

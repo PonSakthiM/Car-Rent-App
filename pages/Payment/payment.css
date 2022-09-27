@@ -9,6 +9,7 @@
     background-color: #e3e3e3;
     position: relative;
     font-family: 'Quicksand', sans-serif;
+    overflow: hidden;
 }
 .menubar{
     width: 100%;
@@ -41,6 +42,7 @@ h1{
     background-color: white;
     border: none;
     margin-left: 10px;
+    outline: none;
 }
 .form img{
     margin-left: 20px;
@@ -264,7 +266,8 @@ h1{
     margin-right: 200px;
     padding: 15px;
     margin-left: 50px;
-    margin-top: 20px; 
+    margin-top: 20px;
+    margin-bottom: 80px; 
 }
 .checkbox{
     height: 40px;
