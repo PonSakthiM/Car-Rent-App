@@ -149,9 +149,6 @@ form label span{
     margin-left: -12px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-
-
-    
 }
 .curved2::after{
         background-color: white;
@@ -286,8 +283,8 @@ table td{
     height: 50px;   
 }
 .amount button:hover{
-    background-color: #3563e9;
-    opacity: 0.5;
+    background-color: #54a6ff;
+
 }
 .amount a{
     text-decoration: none;
@@ -415,7 +412,6 @@ table td{
 }  
 .box:hover{
     background-color: rgb(245, 240, 237);
-    border: 1px solid rgb(252, 247, 247);
 }
 .box a{
     text-decoration: none;
@@ -478,6 +474,11 @@ table td{
     color: white;
     width: 65px;
     height: 25px;
+}
+.rate button:hover{
+    background-color: #54a6ff;
+    color: black;
+    transition: ease-in;
 }
 .recomend{
     color: rgb(87, 105, 131);

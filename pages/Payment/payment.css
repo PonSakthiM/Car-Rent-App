@@ -133,6 +133,10 @@ h1{
 .pickup h4{
     margin-left: 10px;
 }
+.rentalinfo h6{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 .rightpart{
     margin-left: 50px;
 }
@@ -143,26 +147,7 @@ h1{
     padding: 15px;
     margin-left: 50px;
 }
-.rentalinfo label{
-
-    font-size: 10px;
-    color: #596780;
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    
-}
-.rentalinfo select{
-    border: none;
-    color: #596780;
-    background-color: #f6f7f9;
-    margin-left: 230px;
-    position: absolute;
-    right: 15px;
-    top: 10px;
-    
-}
-.select{
+select{
     height: 40px;
     width: 270px;
     background-color: #f6f7f9;
@@ -283,6 +268,7 @@ h1{
 }
 .checkbox label{
     margin-left: 10px;
+    cursor: pointer;
 }
 .confirmation button{
     width: 80px;
@@ -294,6 +280,13 @@ h1{
     font-size: 12px;
     margin-top: 20px;
     font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.confirmation button:hover{
+    background-color: #54a6ff;
+    color: black;
+    transition: ease-in;
 }
 .confirmation h5{
     margin-top: 20px;
@@ -320,12 +313,12 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 .rightsplit{
     margin-left: 50px;
 }
 .view{
-  
   height: 100px;
   width: 100px;
   background-color: #3563e9;
@@ -334,6 +327,7 @@ h1{
   padding: 30px;
   margin-top: 10px;
  margin-left: -20px;
+ margin-bottom: 20px;
 }
 #carview{
     margin-left: -20px;
@@ -365,8 +359,7 @@ margin-top: 5px;
     color: #c3d4e9;
     width: 295px;
     margin-left: 2px;
-    
-
+    margin-bottom: 10px;
 } 
 .subtotal{
     display: flex;
@@ -384,11 +377,15 @@ margin-top: 5px;
     padding: 5px;
     border-radius: 10px;
     margin-top: 10px;
+    margin-bottom: 20px;
+
 }
-.apply span{
+.apply button{
     font-size: 12px;
     margin-right: 10px;
-    margin-top: 10px;
+    border: none;
+    background-color: #e3e3e3;
+    cursor: pointer;
 }
 .apply p{
     margin-left: 10px;
@@ -419,6 +416,7 @@ margin-top: 5px;
     flex-direction: row;
     justify-content: space-between;
     background-color: white;
+    margin-bottom: 30px;
 }
 .rightside{
     display: flex;
