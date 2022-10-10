@@ -81,9 +81,8 @@ h1{
 }
 .leftsplit{
    width: 65%;
-    margin-bottom: -60px;
     margin-left: 40px;
-    
+    margin-top: 30px;
 }
 .billinginfo{
     background-color: white;
@@ -91,7 +90,6 @@ h1{
     margin-right: 200px;
     padding: 15px;
     margin-left: 50px;
-
 }
 .billdate{
     color: #596780;
@@ -317,6 +315,7 @@ select{
 }
 .rightsplit{
     margin-left: 50px;
+    margin-top: 30px;
 }
 .view{
   height: 100px;
@@ -417,6 +416,7 @@ margin-top: 5px;
     justify-content: space-between;
     background-color: white;
     margin-bottom: 30px;
+    margin-top: -40px;
 }
 .rightside{
     display: flex;
