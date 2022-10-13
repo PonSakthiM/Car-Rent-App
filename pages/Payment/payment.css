@@ -9,24 +9,27 @@
     background-color: #e3e3e3;
     position: relative;
     font-family: 'Quicksand', sans-serif;
-    overflow: hidden;
+
 }
 .menubar{
     width: 100%;
     display: flex;
     flex-direction: row;
     background-color: white;
-    position: relative;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 .leftmenu{
     
     display: flex;
     flex-direction: row;
-    margin-left: 80px;
+    margin-left: 40px;
     padding: 10px;
 }
-h1{
-    color: #3563e9;
+h1 a{
+   color: #3563e9;
+   text-decoration: none;
 }
 .form{
     height: 30px;
@@ -85,16 +88,17 @@ h1{
 
 }
 .leftsplit{
-   width: 65%;
-    margin-left: 40px;
+   width: 60%;
+   max-height: 540px;
+   overflow: scroll;
     margin-top: 30px;
+    margin-left: 40px;
 }
 .billinginfo{
     background-color: white;
     border-radius: 10px;
     margin-right: 200px;
     padding: 15px;
-    margin-left: 50px;
 }
 .billdate{
     color: #596780;
@@ -141,14 +145,13 @@ h1{
     margin-top: 20px;
 }
 .rightpart{
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .rentalinfo{
     background-color: white;
     border-radius: 10px;
     margin-right: 200px;
     padding: 15px;
-    margin-left: 50px;
 }
 select{
     height: 40px;
@@ -167,7 +170,6 @@ select{
     border-radius: 10px;
     margin-right: 200px;
     padding: 15px;
-    margin-left: 50px;
     margin-top: 20px;   
 }
 .paymentmethod{
@@ -218,7 +220,9 @@ select{
     color: #596780;
     font-weight: bold;
     font-size: 10px;
-    padding: 10px;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
     
 }
 .paypal img{
@@ -246,14 +250,13 @@ select{
     right: 10px
 }
 .bitcoin label{
- margin-left: 10px;
+ margin-left: 8px;
 }
 .confirmation{
     background-color: white;
     border-radius: 10px;
     margin-right: 200px;
     padding: 15px;
-    margin-left: 50px;
     margin-top: 20px;
     margin-bottom: 80px; 
 }
@@ -302,14 +305,15 @@ select{
 .rendalsummary{
     background-color: white;
     margin-left: 10px;
-    margin-right: 70px;
+    margin-right: 20px;
     border-radius: 10px;
-    padding: 10px;  
+    padding: 20px;  
 }
 .rendalsummary p{
-    font-size: 10px;
+    font-size: 14px;
     color: #90a3bf;
     margin-top: 10px;
+    line-height: 20px;
     
 }
 .nissan{
@@ -319,49 +323,48 @@ select{
     margin-bottom: 20px;
 }
 .rightsplit{
-    margin-left: 50px;
+    width: 35%;
     margin-top: 30px;
+    margin-left: -40px;
+
 }
 .view{
-  height: 100px;
-  width: 100px;
+  height: 180px;
+  width: 200px;
   background-color: #3563e9;
   border-radius: 10px;
   border: 1px solid #3563e9;
   padding: 30px;
   margin-top: 10px;
- margin-left: -20px;
- margin-bottom: 20px;
+  margin-left: -20px;
+  margin-bottom: 20px;
 }
 #carview{
-    margin-left: -20px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
-
 .nissangt h3{
-    margin-top: 20px;
-    margin-left: -20px;
+    margin-top: 50px;
 }
 .review{
     display: flex;
     flex-direction: row;
-    margin-left: -20px;
     margin-top: 10px;
-    
+    margin-left: -10px;
 }
 .checked{
     color: orange;
 }
-.review p{
-margin-left: 15px;
-margin-top: 5px;
+.point{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
 }
 .review span{
-    padding: 2px;
+    padding-left: 10px;
 }
 .viewhr{
     color: #c3d4e9;
-    width: 295px;
+    width: 400px;
     margin-left: 2px;
     margin-bottom: 10px;
 } 
@@ -370,19 +373,15 @@ margin-top: 5px;
     flex-direction: row;
     justify-content: space-between;
 }
-
 .apply{
     height: 40px;
-    width: 300px;
+    width: 410px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     background-color: #e3e3e3;
-    padding: 5px;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 20px;
-
 }
 .apply button{
     font-size: 12px;
@@ -392,7 +391,7 @@ margin-top: 5px;
     cursor: pointer;
 }
 .apply p{
-    margin-left: 10px;
+    padding-left: 10px;
 }
 .amount{
     color: black;
@@ -405,12 +404,11 @@ margin-top: 5px;
     justify-content: space-between;
 }
 .amt{
-    font-size: 20px;
+    font-size: 25px;
     color: black;
     font-weight: bold;
     margin-top: 10px;
 }
-
 .bottom{
     background-color: white;
 }
@@ -419,17 +417,10 @@ margin-top: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: white;
-    margin-bottom: 30px;
-    margin-top: -40px;
-}
-.rightside{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-right: 50px;
-    margin-top: 50px;
-    
+    margin-top: 50px; 
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 80px;
 }
 ul{
     list-style-type: none;
@@ -442,19 +433,16 @@ li{
     padding: 10px;
 }
 .leftside h3{
-    margin-left: 90px;
     color: #3563e9;
     margin-top: 50px;
-
 }
 .leftside p{
-    margin-left: 90px;
     margin-top: 20px;
     font-size: 12px;
     color: #131313; 
     line-height: 20px;
 }
-.about h5{
+.about h4{
     margin-left: 20px;
 }
 .foot{
@@ -471,19 +459,17 @@ li{
     flex-direction: row;
     justify-content: space-around;
     margin-right: 50px;
-
 }
 .privacy p{
     font-weight: bold;
     padding: 20px;
 }
-
 .p{
-    margin-left: 90px;
+    margin-left: 50px;
     margin-top: 20px;
     font-weight: bold;
 }
 hr{
-    width: 90%;
-    margin-left: 80px;
+    width: 92%;
+    margin-left: 40px;
 }
