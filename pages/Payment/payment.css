@@ -227,7 +227,7 @@ select{
     
 }
 .paypal img{
-    margin-left: 440px;
+    margin-left: 430px;
 }
 .paypal label{
     margin-left: 10px;
@@ -456,14 +456,14 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-right: 50px;
+    margin-right: 60px;
 }
 .privacy p{
     font-weight: bold;
     padding: 20px;
 }
 .p{
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 20px;
     font-weight: bold;
 }

@@ -450,7 +450,9 @@ table td{
     margin-left: 30px;
     margin-bottom: 20px;
 }
-.details img{
+.details i{
+    font-size: 15px;
+    color: #90a3bf;
     margin-left: 10px;
     margin-top: 10px;
 }
