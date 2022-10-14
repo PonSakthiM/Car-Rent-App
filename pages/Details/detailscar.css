@@ -68,12 +68,13 @@ h1 a{
     padding-top: 2px;
     margin-left: 10px; 
     width: 40px;
+    transition: all 0.5s ease-in;
 }
 .rightmenu i:hover{
     color: blue;
     padding-bottom: 10px;   
     border-bottom: 2px solid blue;
-    transition: 0.5s;
+    transform: translateY(-5px);
 }
 #profile{
     padding-left: 20px;
@@ -212,12 +213,10 @@ form label span{
 }
 .view{
     height: 100px;
-    width: 100px;
+    width: 110px;
     background-color: #3563e9;
     border-radius: 10px;
     border: 1px solid #3563e9;
-    outline-style: double;
-    outline-color: #596780;
     padding-left: 30px;
     margin-top: 40px;
 }
@@ -279,27 +278,19 @@ table td{
     background-color: #3563e9;
     border: none;
     margin-top: 10px;
-    border-radius: 5px;
+    border-radius: 25px;
     padding: 2px;
     font-size: 15px;
     font-weight: bold;
     color: white;
     width: 100px;
     height: 50px; 
-    cursor: pointer;  
-}
-.amount button:hover{
-    background-color: #54a6ff;
-    box-shadow: 1px 1px 2px 3px gray;
-    transition: 1s;
+    cursor: pointer; 
+    transition: all .6s ease-in; 
 }
 .amount a{
     text-decoration: none;
     color: white;
-}
-.amount a:hover{
-    text-decoration: none;
-    color: black;
 }
 .amount p{
     font-size: 25px;
@@ -411,13 +402,9 @@ table td{
     padding: 10px;
     background-color: #3563e9;
     border: none;
-    border-radius: 10px;
-}
-.recent button:hover{
-    background-color: #54a6ff;
-    box-shadow: 1px 1px 2px 3px gray;
-    color: black;
-    transition: 1s;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: all .5s ease-in; 
 }
 .grid1{
     display: grid;
@@ -496,7 +483,7 @@ table td{
 .rate button{
     background-color: #3563e9;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 2px;
     font-size: 10px;
     color: white;
@@ -504,18 +491,11 @@ table td{
     height: 30px;
     font-weight: bold;
     cursor: pointer;
-}
-.rate button:hover{
-    background-color: #54a6ff;
-    box-shadow: 1px 1px 2px 3px gray;
-    color: black;
-    transition: 1s;
+    transition: all .5s ease-in; 
 }
 .rate a{
     color: white;
-}
-.rate a:hover{
-    color: black;
+    text-decoration: none;
 }
 .recent1{
     display: flex;
@@ -533,15 +513,14 @@ table td{
     padding: 10px;
     background-color: #3563e9;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-top: 20px;
     font-weight: bold;
+    transition: all .5s ease-in; 
 }
-.recent1 button:hover{
-    background-color: #54a6ff;
-    box-shadow: 1px 1px 2px 3px gray;
-    color: black;
-    transition: 1s;
+.recent1 button a{
+    color: white;
+    text-decoration: none;
 }
 .recomend{
     color: rgb(87, 105, 131);
@@ -573,13 +552,13 @@ li{
     padding: 10px;
 }
 .leftside h3{
-    margin-left: 90px;
+    margin-left: 100px;
     color: #3563e9;
     margin-top: 50px;
 
 }
 .leftside p{
-    margin-left: 90px;
+    margin-left: 100px;
     margin-top: 20px;
     font-size: 12px;
     color: #131313; 
@@ -606,7 +585,7 @@ li{
 }
 
 .p{
-    margin-left: 90px;
+    margin-left: 100px;
     margin-top: 20px;   
     font-weight: bold;
 }
@@ -632,4 +611,8 @@ hr{
 .rightsplit{
     margin-bottom: 30px;
     margin-top: 20px;
+}
+button:hover{
+    box-shadow: 0.5px 0.5px 6px 6px rgba(201, 199, 199, 0.5);
+    transform: scale(1.1);
 }

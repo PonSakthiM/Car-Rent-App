@@ -23,7 +23,7 @@
 .leftmenu{
     display: flex;
     flex-direction: row;
-    margin-left: 50px;
+    margin-left: 60px;
     padding: 10px;
 }
 h1{
@@ -73,12 +73,13 @@ h1 a{
     padding-top: 2px;
     margin-left: 10px; 
     width: 40px;
+    transition: all 0.5s ease-in;
 }
 .rightmenu i:hover{
     color: blue;
     padding-bottom: 10px;   
     border-bottom: 2px solid blue;
-    transition: 0.5s;
+    transform: translateY(-5px);
 }
 .profile{
     padding-left: 20px;
@@ -125,15 +126,11 @@ h1 a{
     padding: 10px;
     font-size: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     font-weight: bold;
     width: 100px;
-}
-.leftcar button:hover{
-    background-color: #54a6ff;
-    box-shadow: 1px 1px 1px 1px blue;
-    color: black;
-    transition: 1s;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
 }
 .carani{
     transition: 3s;
@@ -200,15 +197,11 @@ h1 a{
     padding: 10px;
     font-size: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     font-weight: bold;
     width: 100px;
-}
-.rightcar button:hover{
-    background-color: #2196f3;
-    color: black;
-    transition: 1s;
-    box-shadow: 1px 1px 1px 1px blue;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
 }
 .arrow{
     width: 50px;
@@ -328,21 +321,19 @@ h1 a{
     margin-top: 50px;
 }
 .popular button{
-    color: black;
     font-size: 12px;
+    width: 80px;
+    height: 30px;
     background-color: #3563e9;
     border: none;
+    color: white;
     font-weight: bold;
     border-radius: 20px;
     position: absolute;
     top: 590px;
     right: 65px;
-}
-.popular button:hover{
-    background-color: #2196f3;
-    box-shadow: 1px 1px 1px 1px rgb(185, 183, 183);
-    color: white;
-    transition: 1s;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
 }
 .grid1{
     display: grid;
@@ -410,20 +401,18 @@ h1 a{
     background-color: #3563e9;
     margin-right: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 2px;
     font-size: 10px;
-    color: white;
-    width: 70px;
+    width: 90px;
     height: 30px;
     font-weight: bold;
+    transition: all 0.5s ease-in;
     cursor: pointer;
 }
-.rate button:hover{
-    background-color: #54a6ff;
-    box-shadow: 1px 1px 2px 3px gray;
-    color: black;
-    transition: 1s;
+.rate a{
+    color: white;
+    text-decoration: none;
 }
 .redheart{
     position: absolute;
@@ -448,43 +437,23 @@ h1 a{
     display: flex;
     flex-direction: row;
     margin-bottom: 40px;
+    margin-top: 50px;
 }
 .showcar{
     font-size: 12px;
-    color: black;
-    background-color: #3563e9;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    height: 50px;
+    margin-left: 600px;
     width: 150px;
-    margin-left: 390px;
-    margin-top: 50px;
+    color: white;
+    height: 50px;
+    background-color: #3563e9;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
     cursor: pointer;
-}
-.showcar:hover{
-    background-color: #54a6ff;
-    transition: 0.5s;
-    box-shadow: 2px 2px 2px 2px rgb(104, 103, 103);
-}
-.categorybut{
-    font-size: 12px;
-    margin-left: 70px;
-    margin-top: 50px;
-    width: 150px;
-    height: 50px;
-    background-color: #3563e9;
-    border-radius: 5px;
-    font-weight: bold;
-    border: none;
-}
-.categorybut:hover{
-    background-color: #54a6ff;
-    box-shadow: 2px 2px 2px 2px rgb(104, 103, 103);
-    transition: 0.5s;
+    transition: all .5s ease-in;
 }
 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .showcardiv span{
@@ -504,7 +473,7 @@ a{
     background-color: white;
     margin-bottom: 30px;
     padding-top: 30px;
-    padding-right: 40px;
+    padding-right: 50px;
 }
 ul{
     list-style-type: none;
@@ -517,13 +486,13 @@ li{
     padding: 10px;
 }
 .leftside h3{
-    margin-left: 50px;
+    padding-left: 65px;
     color: #3563e9;
     margin-top: 50px;
 
 }
 .leftside p{
-    margin-left: 50px;
+    padding-left: 65px;
     margin-top: 20px;
     font-size: 12px;
     color: #131313; 
@@ -542,15 +511,16 @@ li{
     flex-direction: row;
     justify-content: space-around;
     margin-right: 40px;
-
+    
 }
 .privacy p{
+    
     font-weight: bold;
     padding: 20px;
 }
 
-.p{
-    margin-left: 50px;
+.p{ 
+    margin-left: 60px;
     margin-top: 20px;
     font-weight: bold;
 }
@@ -568,7 +538,11 @@ padding-top: 5px;
     font-size: 20px; 
     font-weight: bold;
 }
-.ripple {
+button:hover{
+    box-shadow: 0.5px 0.5px 6px 6px rgba(201, 199, 199, 0.5);
+    transform: scale(1.1); 
+}
+/*.ripple {
     background-position: center;
     transition: background 0.8s;
   }
@@ -581,7 +555,7 @@ padding-top: 5px;
     transition: background 0s;
   }
   
-  /* Button style */
+  Button style 
   button {
     border: none;
     border-radius: 2px;
@@ -593,5 +567,5 @@ padding-top: 5px;
     background-color: #2196f3;
     box-shadow: 0 0 4px #999;
     outline: none;
-  }
+  }*/
   

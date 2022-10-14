@@ -67,12 +67,13 @@ h1 a{
     padding-top: 2px;
     margin-left: 10px; 
     width: 40px;
+    transition: all 0.5s ease-in;  
 }
 .rightmenu i:hover{
     color: blue;
     padding-bottom: 10px;   
     border-bottom: 2px solid blue;
-    transition: 0.5s;
+    transform: translateY(-5px);
 }
 .profile{
     padding-left: 20px;
@@ -85,63 +86,94 @@ h1 a{
     width: 20%;
     background-color: white;
     margin-top: -35px;
-    
 }
 .mainmenu{
     margin-left: 40px;
     margin-top: 30px;
 }
+.listmode{
+    display: flex;
+    flex-direction: row;
+}
+.listmode span{
+    font-size: 12px;
+}
+.mode{
+    margin-right: 10px;
+    margin-left: 20px;
+    height: 25px;
+    width: 55px;
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding-top: 3px;
+    display: flex;
+    justify-content: space-around;
+    transition: all 0.5s ease-in;  
+}
+.mode i{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 2px;
+    transition: all 0.5s ease-in;
+}
+.mode i:hover{
+    background-color: #2185de;
+    color: white;
+    border-radius: 50%;
+}
+.list{
+    padding-top: 20px;
+    height: 30px;
+    width: 120px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in;
+}
+.list span{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.list:hover{
+    height: 30px;
+    width: 120px;
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+    background-color: #3563e9;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.mainmenu h6{
+    letter-spacing: 2px;
+    color: #90a3bf;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
 
-.listmark{
+.logout{
+    margin-top: 60px;
+    height: 30px;
+    width: 120px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in;
+}
+.logout span{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.logout:hover{
     height: 30px;
     width: 120px;
     padding: 5px;
     color: white;
     background-color: #3563e9;
     border-radius: 10px;
-}
-.listmark span{
-    color: white;
-    font-size: 12px;
-    margin-left: 10px;
-}
-.listmode{
-    display: flex;
-    flex-direction: row;
-    
-}
-.listmode span{
-    font-size: 12px;
-    color: #90a3bf;
-    margin-left: 15px;
-}
-.mode{
-    margin-left: 60px;
-    height: 20px;
-    width: 40px;
-    background-color: #e3e3e3;
-    border-radius: 10px;
-    padding-top: 3px;
-    padding-left: 5px;
-}
-.list span{
-    margin-left: 10px;
-    font-size: 12px;
-    color: #90a3bf;
-    
-}
-.mainmenu h6{
-    letter-spacing: 2px;
-    color: #90a3bf;
-    padding-top: 20px;
-}
-.logout{
-    margin-top: 60px;
-}
-.logout span{
-    margin-left: 10px;
-    font-size: 12px;
-    color: #90a3bf;
+    font-weight: bold;
     
 }
 .center{

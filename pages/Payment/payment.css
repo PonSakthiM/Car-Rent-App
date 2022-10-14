@@ -70,12 +70,14 @@ h1 a{
     padding-top: 2px;
     margin-left: 10px; 
     width: 40px;
+    transition: all 0.5s ease-in;
 }
 .rightmenu i:hover{
     color: blue;
     padding-bottom: 10px;   
     border-bottom: 2px solid blue;
-    transition: 0.5s;
+    transform: translateY(-5px);
+    
 }
 #profile{
     padding-left: 20px;
@@ -281,17 +283,13 @@ select{
     color: white;
     background-color: #3563e9;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     font-size: 12px;
     margin-top: 20px;
     font-weight: bold;
     margin-bottom: 20px;
     cursor: pointer;
-}
-.confirmation button:hover{
-    background-color: #54a6ff;
-    color: black;
-    transition: ease-in;
+    transition: all .5s ease-in;
 }
 .confirmation h5{
     margin-top: 20px;
@@ -472,4 +470,8 @@ li{
 hr{
     width: 92%;
     margin-left: 40px;
+}
+button:hover{
+    box-shadow: 0.5px 0.5px 6px 6px rgba(201, 199, 199, 0.5);
+    transform: scale(1.1);
 }
